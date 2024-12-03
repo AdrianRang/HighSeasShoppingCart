@@ -1,0 +1,246 @@
+{
+    "items": [
+        {
+            "name": "Pile of Stickers",
+            "description": "3, and random...",
+            "cost": 17,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "others"
+            ]
+        },
+        {
+            "name": "OpenAI credits",
+            "description": "$10",
+            "cost": 28,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "others"
+            ]
+        },
+        {
+            "name": "Hetzner credits",
+            "description": "$10",
+            "cost": 28,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "others"
+            ]
+        },
+        {
+            "name": "Anthropic credits",
+            "description": "$10",
+            "cost": 28,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "others"
+            ]
+        },
+        {
+            "name": "Heroku credits",
+            "description": "$10",
+            "cost": 28,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "others"
+            ]
+        },
+        {
+            "name": "Hack Club MicroSD Card",
+            "description": "might hold 64gb worth of data!",
+            "cost": 32,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "others"
+            ]
+        },
+        {
+            "name": "Logic Analizer",
+            "description": "omgwtfbbq! fx2lafw ftw!!",
+            "cost": 34,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "others"
+            ]
+        },
+        {
+            "name": "McMaster-Carr Credits",
+            "description": "$10",
+            "cost": 38,
+            "regions": [
+                "US"
+            ]
+        },
+        {
+            "name": "iFixit Credits",
+            "description": "$10",
+            "cost": 38,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "others"
+            ]
+        },
+        {
+            "name": "Bite Size Linux",
+            "description": "by Julia Evans",
+            "cost": 40,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "others"
+            ]
+        },
+        {
+            "name": "Bite Size Bash",
+            "description": "by Julia Evans",
+            "cost": 40,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "others"
+            ]
+        },
+        {
+            "name": "How DNS works",
+            "description": "by Julia Evans",
+            "cost": 40,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "others"
+            ]
+        },
+        {
+            "name": "Domain (1 year)",
+            "description": "(anything under $10!)",
+            "cost": 40,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "others"
+            ]
+        },
+        {
+            "name": "Signed foto of Malted",
+            "description": "(may incur customs charges)",
+            "cost": 42,
+            "regions": [
+                "US",
+                "EU",
+                "CAN",
+                "others"
+            ]
+        },
+        {
+            "name": "Digital Calipers",
+            "description": "plastic, but fantastic!",
+            "cost": 50,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "others"
+            ]
+        },
+        {
+            "name": "PCB Manufacturing Credit",
+            "description": "works anywhere OnBoard does!",
+            "cost": 55,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "others"
+            ]
+        },
+        {
+            "name": "Adafruit ItsyBitsy M4 Express",
+            "description": "ARMed and dangerous!",
+            "cost": 55,
+            "regions": [
+                "US"
+            ]
+        },
+        {
+            "name": "Hot Glue Gun",
+            "description": "affix some things to some stuff!",
+            "cost": 57,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN"
+            ]
+        },
+        {
+            "name": "DigiKey/LCSC Credit",
+            "description": "$20",
+            "cost": 63,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "others"
+            ]
+        },
+        {
+            "name": "Raspberry Pi",
+            "description": "kit with Zero 2 W!",
+            "cost": 73,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "others"
+            ]
+        },
+        {
+            "name": "GitHub Invertocat Pin!",
+            "description": "stylish!!!",
+            "cost": 76,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "others"
+            ]
+        }
+    ]
+}
