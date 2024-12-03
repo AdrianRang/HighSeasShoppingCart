@@ -41,6 +41,10 @@ async function run() {
         doubloon.src = "https://highseas.hackclub.com/doubloon.svg";
         doubloon.className = "doubloon";
 
+        let price = document.createElement("span");
+        price.innerHTML = itmes.items[i].cost;
+        price.className = "price";
+
         let lessButton = document.createElement("button");
         lessButton.innerHTML = "-"
 
@@ -64,6 +68,7 @@ async function run() {
         newDiv.appendChild(description);
         newDiv.appendChild(divider);
         newDiv.appendChild(doubloon);
+        newDiv.appendChild(price);
         newDiv.appendChild(lessButton);
         newDiv.appendChild(amount);
         newDiv.appendChild(plusButton);
