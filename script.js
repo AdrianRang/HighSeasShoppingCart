@@ -38,7 +38,7 @@ async function run() {
         description.innerHTML = itmes.items[i].description;
 
         let doubloon = document.createElement("img");
-        doubloon.src = "https://highseas.hackclub.com/doubloon.svg";
+        doubloon.src = "doubloon.svg";
         doubloon.className = "doubloon";
 
         let price = document.createElement("span");
@@ -58,10 +58,12 @@ async function run() {
         lessButton.onclick = () => {
             if(amount.innerHTML == 0) {return}
             amount.innerHTML = amount.innerHTML - 1;
+            change();
         }
 
         plusButton.onclick = () => {
             amount.innerHTML = Number(amount.innerHTML) + 1;
+            change();
         }
         
         newDiv.appendChild(name);
@@ -76,3 +78,62 @@ async function run() {
 }
 
 run()
+
+let ticketDiv = document.getElementById("ticket");
+function change() {
+    ticketDiv = document.getElementById("ticket");
+    let itemDiv = document.getElementById("content");
+
+    ticketDiv.innerHTML = "";
+
+    let count = 0;
+    for(let i = 0; i < itemDiv.children.length; i++) {
+        let item = itemDiv.children[i];
+        if(item.children[6].innerHTML == '0') {
+            continue;
+        }
+
+        /*
+            <div class="ticket">
+                <span>Raspberry Pi</span>
+                <span>x5</span>
+                <span style="align-items: center; display: flex; gap: 2px;"><img src="doubloon.svg" alt="" height="20"> 20</span>
+            </div>
+        */
+        let newItem = document.createElement("div");
+        newItem.className = "ticket";
+        let name = document.createElement("span");
+        name.innerHTML = itmes.items[i].name;
+        let price = document.createElement("div");
+        price.style = "align-items: center; display: flex; gap: 2px;";
+        let doubloon = document.createElement("img");
+        doubloon.src = "doubloon.svg";
+        doubloon.height = "20";
+        price.appendChild(doubloon);
+        let priceSpan = document.createElement("span");
+        priceSpan.innerHTML = itmes.items[i].cost;
+        price.appendChild(priceSpan);
+        let amount = document.createElement("span");
+        amount.innerHTML = "x" + (itemDiv.children[i].children[6].innerHTML);
+        count += Number(itemDiv.children[i].children[6].innerHTML) * itmes.items[i].cost;
+
+        newItem.appendChild(name);
+        newItem.appendChild(price);
+        newItem.appendChild(amount)
+
+        newItem.addEventListener("click", () => {
+            let items = document.getElementById("content");
+            for(let i = 0; i < items.children.length; i++) {
+                if(items.children[i].children[0].innerHTML == newItem.children[0].innerHTML) {
+                    items.children[i].children[6].innerHTML = 0;
+                }
+            }
+            newItem.remove();
+            change();
+        })
+        ticketDiv.appendChild(newItem);
+    }
+    
+    console.log(count);
+    document.getElementById("price").innerHTML = count;
+}

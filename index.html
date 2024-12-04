@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="bg"></div>
     <div id="warning">
         This is an unofficial remix of the shop in HackClub's High Seas. You can not buy stuff here!
     </div>
@@ -15,14 +16,22 @@
     <div id="vertical">
         <div id="data" >
             <!-- Data -->
-            <span>How many doubloons have you plundered? </span>
+            <div>
+                <span>How many doubloons (</span><img src="/doubloon.svg" alt="doubloon" class="doubloon"><span></span>) have you plundered? </span>
+            </div>
             <input type="text">
         </div>
         <div id="content">
             <!-- The shop items (added through JS) -->
         </div>
-        <div>
+        <div id="total">
             <!-- Total -->
+            <h2>Total</h2>
+            <div id="ticket">
+                <!-- Ticket -->
+            </div>
+            <hr>
+            <h3 id="price">0</h3>
         </div>
     </div>
 </body>
