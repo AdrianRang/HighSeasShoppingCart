@@ -56,6 +56,11 @@ async function run() {
                     flag.className = "flag";
                     flags.appendChild(flag);
                     break;
+                case "CAN":
+                    flag.src = "Flags/CA.svg";
+                    flag.className = "flag";
+                    flags.appendChild(flag);
+                    break;
                 case "XX":
                     flag.src = "Flags/XX.svg";
                     flag.className = "flag";

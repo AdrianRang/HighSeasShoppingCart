@@ -177,7 +177,7 @@
         },
         {
             "name": "PCB Manufacturing Credit",
-            "description": "works anywhere OnBoard does!",
+            "description": "works <a href=\"https://github.com/hackclub/OnBoard/blob/main/docs/VENDORS.md\" target=\"_blank\"><u>anywhere OnBoard does</u></a>!",
             "cost": 55,
             "regions": [
                 "US",
@@ -241,6 +241,312 @@
                 "CAN",
                 "XX"
             ]
+        },
+        {
+            "name": "Signed photo of Graham Darcey",
+            "description": "(rare!!!)",
+            "cost": 80,
+            "regions": [
+                "US",
+                "EU",
+                "CAN"
+            ]
+        },
+        {
+            "name": "Blåhaj",
+            "description": "⚠️ warning: smolhaj!",
+            "cost": 123,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "Baofeng UV-5R",
+            "description": "ham! but no cheese...",
+            "cost": 126,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "Lockpick set",
+            "description": "<a href=\"https://toool.us\" target=\"_blank\"><u>TOOOL</u></a>'s Necessary Nine!",
+            "cost": 151,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN"
+            ]
+        },
+        {
+            "name": "GitHub Keycaps",
+            "description": "assorted pack of 8!",
+            "cost": 154,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "Hack Club socks!",
+            "description": "(genuinely really comfy!)",
+            "cost": 156,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "Factorio",
+            "description": "a great use of your time!",
+            "cost": 170,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "GitHub Universe Badge",
+            "description": "<a href=\"https://gh.io/badger\" target=\"_blank\"><u>wait</u></a>, this is just an RP2350 and an e-ink display...",
+            "cost": 172,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "1 lb fudge from place next to HQ",
+            "description": "even the dinosaur likes it!",
+            "cost": 220,
+            "regions": [
+                "US",
+                "EU",
+                "CAN"
+            ]
+        },
+        {
+            "name": "YubiKey",
+            "description": "5C NFC, GitHub-branded",
+            "cost": 264,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "Dremel 4300 kit",
+            "description": "5 attachments and 40 accessories!",
+            "cost": 265,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "Raspberry Pi 5",
+            "description": "4GB RAM & 64GB µSD!",
+            "cost": 275,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "Logitech MX Master 3S",
+            "description": "Wireless, quiet and fast! Doesn't need cheese.",
+            "cost": 480,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "Blot",
+            "description": "let's just call it a <a href=\"https://blot.hackclub.com\" target=\"_blank\"><u>draw</u></a>",
+            "cost": 675,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "GitHub MiiR®️ Backpack",
+            "description": "$10",
+            "cost": 725,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "System76 Launch Keyboard",
+            "description": "<a href=\"https://github.com/system76/launch\" target=\"_blank\"><u>open-source!!!</u></a>",
+            "cost": 790,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "Flipper",
+            "description": "(zero!)",
+            "cost": 850,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "Bambu Lab A1 Mini",
+            "description": "print print print print print!",
+            "cost": 1000,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "Thermal imaging camera",
+            "description": "hot stuff!",
+            "cost": 1015,
+            "regions": [
+                "US",
+                "EU",
+                "CAN"
+            ]
+        },
+        {
+            "name": "Hot-air rework station",
+            "description": "(Quick 861DW)",
+            "cost": 1120,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "100MHZ Oscilloscope",
+            "description": "Siglent <a href=\"https://siglentna.com/wp-content/uploads/dlm_uploads/2021/04/SDS1000CMLplus_DataSheet_DS0101A-E03A.pdf\" target=\"_blank\"><u>SDS1102CML+</u></a>",
+            "cost": 1210,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "iPad",
+            "description": "10th gen (w/ Apple Pencil!)",
+            "cost": 2090,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "Framework Laptop 13\"",
+            "description": "(factory seconds)",
+            "cost": 3075,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "MacBook Air M2 13\"",
+            "description": "refurbished, 8GB RAM",
+            "cost": 4000,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "Framework Laptop 16\"",
+            "description": "we only have one of these, grab it if you can!",
+            "cost": 4980,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
+        },
+        {
+            "name": "Ticket to DEF CON",
+            "description": "flight and hotel included!",
+            "cost": 6675,
+            "regions": [
+                "US",
+                "EU",
+                "IN",
+                "CAN",
+                "XX"
+            ]
         }
+
     ]
 }
