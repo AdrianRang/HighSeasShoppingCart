@@ -78,6 +78,18 @@ hr {
     color: red;
 }
 
+.remove-one {
+    color: yellow;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.remove-multiple {
+    color: red;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
 #vertical{
     width: 100%;
     display: flex;
@@ -116,10 +128,10 @@ hr {
     border-radius: 5px;
     padding: 10px;
     background-color: aliceblue;
-    width: 200px;
+    width: 300px;
     height: min-content;
     position: fixed;
-    transform: translateX(240%);
+    transform: translateX(165%);
 }
 
 #ticket {

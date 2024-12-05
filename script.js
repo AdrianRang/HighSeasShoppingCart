@@ -174,9 +174,17 @@ function change() {
     if(document.getElementById("doubloon-count").value < count) {
         document.getElementById("price").classList.add("not-enough");
         document.getElementById("left").innerHTML = "Missing: " + (count - document.getElementById("doubloon-count").value);
+        document.getElementById("time").innerHTML = Math.floor(((count - document.getElementById("doubloon-count").value) / document.getElementById("doubloon-hour").value) * 100) / 100 + " hours";
+        for(let i = 0; i < ticketDiv.children.length; i++) {
+            if(count - ticketDiv.children[i].children[1].children[1].innerHTML < document.getElementById("doubloon-count").value) {
+                ticketDiv.children[i].children[0].classList.add("remove-one");
+            } else if(count - ticketDiv.children[i].children[1].children[1].innerHTML * ticketDiv.children[i].children[2].innerHTML.replace("x", "") < document.getElementById("doubloon-count").value) {
+                ticketDiv.children[i].children[0].classList.add("remove-multiple");
+            }
+        }
     }else {
         document.getElementById("price").classList.remove("not-enough");
         document.getElementById("left").innerHTML = (document.getElementById("doubloon-count").value - count) + " left over";
-
-    }
+        document.getElementById("time").innerHTML = "";
+    }  
 }

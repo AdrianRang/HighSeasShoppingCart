@@ -21,6 +21,9 @@
                 <span>How many doubloons (</span><img src="/doubloon.svg" alt="doubloon" class="doubloon"><span></span>) have you plundered? </span>
             </div>
             <input type="number" id="doubloon-count">
+            <br>
+            <span>What is your average doubloons per hour</span>
+            <input type="number" id="doubloon-hour">
         </div>
         <div id="content">
             <!-- The shop items (added through JS) -->
@@ -34,7 +37,10 @@
             <hr>
             <div style="display: flex; justify-content: space-between;">
                 <h3 id="price">0</h3>
-                <h4 id="left"></h4>
+                <div style="display: flex; flex-direction: column;">
+                    <span id="left"></span>
+                    <span id="time">12 hours</span>
+                </div>
             </div>
         </div>
     </div>
